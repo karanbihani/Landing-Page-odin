@@ -89,12 +89,15 @@ body{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    padding: 2rem;
+    padding-top: 0;
 }
 
 .section2 h2{
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
+    padding: 2rem;
 }
 
 .card{
@@ -110,4 +113,73 @@ body{
 .card img{
     border:5px solid cyan;
     border-radius: 2rem;
+}
+
+.section3{
+    background-color: #e5e7eb;
+    /* text-align: center; */
+    padding: 6rem 16rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote{
+    /* display: flex; */
+    margin: auto;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    /* max-width: 600px; */
+}
+
+.by{
+    font-weight: 900;
+    font-size: 1.5rem;
+    align-self: flex-end;
+    padding-right: 1rem;
+}
+
+.container{
+    display: flex;
+    margin: 50px auto; 
+    padding: 25px 48px;
+    background-color: #3882f6;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.container-left, .container-right{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    
+    padding: 1rem 2rem;
+}
+
+.container-left{
+    width: 60%;
+}
+
+.container-right{
+    width: 40%;
+}
+.container-right button{
+    /* flex-basis: 0; */
+    /* width: 48px; */
+    align-self: center;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 10px 25px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
